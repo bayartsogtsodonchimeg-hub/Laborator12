@@ -1,10 +1,10 @@
 package com.example.a_daalgawar;
 public class Main{
     public static void main(String[] args){
-        MusicPlayer x = MusicPlayer.getInstance();
-        System.out.println(x.song);
+        BluetoothDevice x = BluetoothDevice.getInstance();
+        System.out.println(x.deviceName);
         
-        MusicPlayer y = MusicPlayer.getInstance();
+        BluetoothDevice y = BluetoothDevice.getInstance();
         System.out.println(x == y);
     }
 }

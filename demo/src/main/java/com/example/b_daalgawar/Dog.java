@@ -7,7 +7,7 @@ class Dog extends Pet {
         return "How How";
     }
     public String toString() {
-        return "Dog - " + name +
-               " says " + speak();
+        return "Dog: " + name +
+               " says: " + speak();
     }
 }
